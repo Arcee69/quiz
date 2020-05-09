@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <header>
+          <h1>Random Quiz</h1>
+        </header>
+        <section>
+          <div id="results"></div>
+          <form name="quizForm" onsubmit="return submitAnswers()">
+            <h3>1. Which of these is not a programming language?</h3>
+            <input type="radio" name="q1" value="a" id="q1a">a. Python<br>
+            <input type="radio" name="q1" value="b" id="q1b">b. PHP<br>
+            <input type="radio" name="q1" value="c" id="q1c">c. English<br>
+            <input type="radio" name="q1" value="d" id="q1d">d. JavaScript<br>
+      
+            <br><br>
+            <h3>2. Which of the following car runs on electricity?</h3>
+            <input type="radio" name="q2" value="a" id="q2a">a. Toyota<br>
+            <input type="radio" name="q2" value="b" id="q2b">b. Tesla<br>
+            <input type="radio" name="q2" value="c" id="q2c">c. Ford<br>
+            <input type="radio" name="q2" value="d" id="q2d">d. Volvo<br>   
+            
+            <br><br>
+            <h3>3. Who invented Javascript?</h3>
+            <input type="radio" name="q3" value="a" id="q3a">a. Brendan Eich<br>
+            <input type="radio" name="q3" value="b" id="q3b">b. Jeff Ogah<br>
+            <input type="radio" name="q3" value="c" id="q3c">c. Bill Gates<br>
+            <input type="radio" name="q3" value="d" id="q3d">d. Satoshi Nakamoto<br> 
+            
+            <br><br>
+            <h3>4. What programming language was this quiz created with?</h3>
+            <input type="radio" name="q4" value="a" id="q4a">a. Java, HTML, Python<br>
+            <input type="radio" name="q4" value="b" id="q4b">b. HTML, CSS, Javascript<br>
+            <input type="radio" name="q4" value="c" id="q4c">c. Go, PHP, Nodejs<br>
+            <input type="radio" name="q4" value="d" id="q4d">d. English, Python, Bootstrap<br>
+            
+            <br><br>           
+            <h3>5. Which of these countries can be found in Africa?</h3>
+            <input type="radio" name="q5" value="a" id="q5a">a. Singapore<br>
+            <input type="radio" name="q5" value="b" id="q5b">b. Afghanistan<br>
+            <input type="radio" name="q5" value="c" id="q5c">c. Italy<br>
+            <input type="radio" name="q5" value="d" id="q5d">d. Madagascar<br>
+
+            <br><br>
+            <input type="submit" value="Submit Answers">
+          </form>
+        </section>
+        <footer>
+          <p>Copyright &copy; 2020</p>
+        </footer> 
+      </div>
+</body>
+<script src="script.js"></script>
+</html>
